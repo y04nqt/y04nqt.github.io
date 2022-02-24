@@ -14,8 +14,8 @@ export default function MainPage() {
   return (
     <div
       className="
-        absolute top-[25%] left-[25%] right-[25%] bottom-[25%]
-        flex flex-column justify-center items-center
+        absolute top-[5%] left-[5%] right-[5%] bottom-[5%]
+        flex justify-center items-center
       "
     >
       <Popover
@@ -49,9 +49,11 @@ export default function MainPage() {
       </Typography>
       <Typography
         variant="h4"
-      >Senior Software Engineer</Typography>
+      >
+        Senior Software Engineer
+      </Typography>
       <ButtonHolder
-        className='flex space-between w-1/2 mx-auto flex-wrap'
+        className='flex space-between justify-center mx-auto flex-wrap mt-8'
       >
         <Button
           text="About Me"
