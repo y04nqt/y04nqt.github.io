@@ -9,7 +9,7 @@ interface IButtonProps {
   endIcon?: React.ReactNode;
   onClick?: () => any;
   variant?: "text" | "outlined" | "contained";
-  color?: string;
+  color?: "inherit" | "primary" | "secondary" | "success" | "error" | "info" | "warning" | undefined;
 }
 
 export default function Button({
