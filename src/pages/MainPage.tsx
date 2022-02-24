@@ -64,24 +64,21 @@ export default function MainPage() {
           text="About Me"
           startIcon={<InfoIcon />}
           onClick={() => redirect('/about-me')}
-          className="my-4 mx-4"
-          variant="outlined"
+          variant="text"
           color="inherit"
         />
         <Button
           text="LinkedIn"
           startIcon={<LinkedInIcon />}
           onClick={() => openLink("https://www.linkedin.com/in/aaron-krueger-s117")}
-          className="my-4 mx-4"
-          variant="outlined"
+          variant="text"
           color="inherit"
         />
         <Button
           text="SoundCloud"
           startIcon={<LibraryMusicIcon />}
           onClick={() => openLink("https://www.soundcloud.com/mag_landrace")}
-          className="my-4 mx-4"
-          variant="outlined"
+          variant="text"
           color="inherit"
         />
       </ButtonHolder>
