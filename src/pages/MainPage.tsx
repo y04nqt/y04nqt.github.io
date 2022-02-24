@@ -19,6 +19,9 @@ export default function MainPage() {
       "
     >
       <Popover
+        sx={{
+          pointerEvents: 'none',
+        }}
         anchorOrigin={{
           vertical: 'top',
           horizontal: 'center',
