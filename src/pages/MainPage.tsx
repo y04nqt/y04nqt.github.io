@@ -15,7 +15,7 @@ export default function MainPage() {
     <div
       className="
         absolute top-[5%] left-[5%] right-[5%] bottom-[5%]
-        flex justify-center items-center
+        flex flex-col justify-center items-center
       "
     >
       <Popover
