@@ -8,10 +8,12 @@ interface IButtonProps {
   startIcon?: React.ReactNode;
   endIcon?: React.ReactNode;
   onClick?: () => any;
+  variant?: "text" | "outlined" | "contained";
+  color?: string;
 }
 
 export default function Button({
-  text = 'Press Me', className, startIcon, endIcon, ...props
+  text = 'Press Me', className, startIcon, endIcon, variant, color, ...props
 }: IButtonProps) {
   return (
     <MUIButton
@@ -22,6 +24,8 @@ export default function Button({
       }
       startIcon={startIcon}
       endIcon={endIcon}
+      variant={variant}
+      color={color}
     >
       {text}
     </MUIButton>
