@@ -19,6 +19,7 @@ export default function MainPage() {
       "
     >
       <Popover
+        className="w-1/2"
         sx={{
           pointerEvents: 'none',
         }}
@@ -36,8 +37,9 @@ export default function MainPage() {
       >
         <Typography
           variant="h6"
+          className="p-8"
         >
-          I created this entire project without ever opening a web browser during development (+ it's styled). Impressed? Checkout my <a href="https://www.github.com/y04nqt">GitHub</a> to find this project.
+          I created this entire project without ever opening a web browser during development (+ it's styled). Impressed? Checkout my about me app.
         </Typography>
       </Popover>
 
