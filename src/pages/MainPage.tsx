@@ -36,7 +36,7 @@ export default function MainPage() {
           variant="h6"
           className="p-8"
         >
-          Impressed? Checkout my about me app by clicking the button.
+          Check out the about me app and to learn more about me!
         </Typography>
       </Popover>
 
