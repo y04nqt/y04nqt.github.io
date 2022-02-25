@@ -28,7 +28,7 @@ export default function MainPage() {
           horizontal: 'center',
         }}
         transformOrigin={{
-          vertical: 'top',
+          vertical: 'bottom',
           horizontal: 'center',
         }}
         open={openPopover}
@@ -39,7 +39,7 @@ export default function MainPage() {
           variant="h6"
           className="p-8"
         >
-          I created this entire project without ever opening a web browser during development (+ it's styled). Impressed? Checkout my about me app.
+          Impressed? Checkout my about me app by clicking the button.
         </Typography>
       </Popover>
 
@@ -67,6 +67,7 @@ export default function MainPage() {
           variant="text"
           color="inherit"
         />
+        <span className='mx-2'></span>
         <Button
           text="LinkedIn"
           startIcon={<LinkedInIcon />}
@@ -74,6 +75,7 @@ export default function MainPage() {
           variant="text"
           color="inherit"
         />
+        <span className='mx-2'></span>
         <Button
           text="SoundCloud"
           startIcon={<LibraryMusicIcon />}
