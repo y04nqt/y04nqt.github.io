@@ -19,10 +19,7 @@ export default function MainPage() {
       "
     >
       <Popover
-        className="w-1/2"
-        sx={{
-          pointerEvents: 'none',
-        }}
+        className="w-3/4 pointer-events-none"
         anchorOrigin={{
           vertical: 'top',
           horizontal: 'center',
