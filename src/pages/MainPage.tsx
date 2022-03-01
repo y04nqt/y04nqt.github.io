@@ -36,7 +36,7 @@ export default function MainPage() {
           variant="h6"
           className="p-8"
         >
-          Check out the about me app and to learn more about me!
+          If you mention the word sleuth in the subject line, <br/>I'll do my best to contact you back.
         </Typography>
       </Popover>
 
