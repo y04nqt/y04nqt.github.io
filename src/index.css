@@ -51,6 +51,15 @@ code {
     monospace;
 }
 
+.invertAndOverlay {
+  filter: invert(1);
+  mix-blend-mode: overlay;
+}
+
+.invertAndDifference:hover, .invertAndDifference:focus {
+  filter: invert(1);
+  mix-blend-mode: difference;
+}
 
 @keyframes gradient {
   0% {

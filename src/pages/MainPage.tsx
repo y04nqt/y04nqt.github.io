@@ -51,7 +51,7 @@ export default function MainPage() {
       </Typography>
       <Typography
         variant="h4"
-        style={{filter: 'invert(1)', mixBlendMode: 'overlay'}}
+        className='invertAndOverlay'
       >
         Senior Software Engineer
       </Typography>
@@ -64,7 +64,7 @@ export default function MainPage() {
           onClick={() => redirect('/about-me')}
           variant="text"
           color="inherit"
-          style={{filter: 'invert(1)', mixBlendMode: 'difference'}}
+          className='invertAndDifference'
         />
         <span className='mx-2'></span>
         <Button
