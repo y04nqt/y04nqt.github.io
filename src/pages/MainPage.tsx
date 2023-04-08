@@ -3,7 +3,7 @@ import Button from "../components/Button";
 import ButtonHolder from "../components/ButtonHolder";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InfoIcon from '@mui/icons-material/Info';
-import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import { Popover, Typography } from "@mui/material";
 import { openLink, redirect } from '../helpers';
 
@@ -76,9 +76,9 @@ export default function MainPage() {
         />
         <span className='mx-2'></span>
         <Button
-          text="SoundCloud"
-          startIcon={<LibraryMusicIcon />}
-          onClick={() => openLink("https://www.soundcloud.com/mag_landrace")}
+          text="GitHub"
+          startIcon={<GitHubIcon />}
+          onClick={() => openLink("https://github.com/y04nqt")}
           variant="text"
           color="inherit"
         />
