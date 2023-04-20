@@ -3,7 +3,7 @@ const WorkSection = () => {
         <div className="p-10">
             <h3 className="mb-1 text-4xl">Projects & Career Highlights</h3>
             <small className="text-lg">Some of the main highlights I'd like to share.</small>
-            <ul className="p-8 m-0 mt-10 text-left list-none bg-white bg-opacity-50 rounded-lg shadow-lg">
+            <ul className="p-10 m-0 mt-10 text-left list-none bg-white rounded-lg shadow-xl bg-opacity-70">
                 <li className="m-0 min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 text-2xl">📈 Growth SEO</h4>
                     <ul className="pl-8 m-0 text-lg">
