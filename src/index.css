@@ -70,6 +70,22 @@ code {
   animation: blinkination 2.5s ease-in-out infinite;
 }
 
+.come-up {
+  animation: getoverhere 2000ms ease-in-out forwards;
+}
+
+/* NOTE: top is for main text, bottom is for double chevron this animation is linked and not single responsibility */
+@keyframes getoverhere {
+  0% {
+    top: -2500px;
+    bottom: 2500px;
+  }
+  100% {
+    
+  }
+}
+
+
 @keyframes blinkination {
   50% {
     opacity: 0.3;

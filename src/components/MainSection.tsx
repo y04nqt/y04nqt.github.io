@@ -33,6 +33,7 @@ const MainSection = () => {
       className="
         absolute top-[5%] left-[5%] right-[5%] bottom-[5%]
         flex flex-col justify-center items-center
+        come-up
       "
     >
       <Popover
@@ -87,7 +88,7 @@ const MainSection = () => {
         />
       </ButtonHolder>
       <Typography
-        className=""
+        className="!mt-4"
         aria-owns={openPopover ? "mouse-over-popover" : undefined}
         aria-haspopup="true"
         onMouseEnter={(e) => setAnchorEl(e.currentTarget)}
@@ -95,7 +96,7 @@ const MainSection = () => {
       >
         <InfoIcon />
       </Typography>
-      <div className={`${isHidden} tranisition-opacity duration-300 absolute bottom-[48px]`}>
+      <div className={`${isHidden} tranisition-opacity duration-300 absolute bottom-[48px] come-up`}>
         <Typography className={`abe-blinkin`}>
           <DoubleArrowIcon
             style={{ transform: "rotate(90deg)" }}
