@@ -33,7 +33,7 @@ const MainSection = () => {
       className="
         absolute top-[5%] left-[5%] right-[5%] bottom-[5%]
         flex flex-col justify-center items-center
-        come-up
+        appear-in
       "
     >
       <Popover
