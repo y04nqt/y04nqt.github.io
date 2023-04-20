@@ -96,7 +96,7 @@ const MainSection = () => {
       >
         <InfoIcon />
       </Typography>
-      <div className={`${isHidden} tranisition-opacity duration-300 absolute bottom-[48px] come-up`}>
+      <div className={`${isHidden} tranisition-opacity duration-300 absolute bottom-[24px] come-up`}>
         <Typography className={`abe-blinkin`}>
           <DoubleArrowIcon
             style={{ transform: "rotate(90deg)" }}
