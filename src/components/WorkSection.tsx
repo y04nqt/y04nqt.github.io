@@ -6,7 +6,7 @@ const WorkSection = () => {
             <ul className="p-10 m-0 mt-10 text-left list-none bg-white rounded-lg shadow-xl bg-opacity-70">
                 <li className="m-0 min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 text-2xl">📈 Growth SEO</h4>
-                    <ul className="pl-8 m-0 text-lg">
+                    <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
                         <li className="mb-4">
                             Fully customizable rehydrated deployed bundles of minified and compiled Typescript to Javascript web components. Think of a search input to direct a user to another application or phone input to collect user's mobile numbers for starting account creation. To see the sample set up, checkout the <a href="https://github.com/y04nqt/deployable-web-components" target="_blank" rel="noreferrer">repository on github</a>.
                         </li>
@@ -21,7 +21,7 @@ const WorkSection = () => {
                 </li>
                 <li className="m-0 mt-8 ml-auto min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 text-2xl">👩‍🏭 Gig Economy Job Requesting and Worker Tracking</h4>
-                    <ul className="pl-8 m-0 text-lg">
+                    <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
                         <li className="mb-4">
                             Created many features including systems for requesting multi-day shifts with variable settings to determine categorization, micro-service operations + architecture, and UI/UX enhancement for employers and workers.
                         </li>
@@ -36,7 +36,7 @@ const WorkSection = () => {
                 </li>
                 <li className="m-0 mt-8 min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 text-2xl">☎️ Online Call Center Application</h4>
-                    <ul className="pl-8 m-0 text-lg">
+                    <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
                         <li className="mb-4">
                             I helped contribute new features and functionality to an online call center application for workers. This enabled workers to call a list of numbers from their computer using any web browser, read the script, and eventually complete their shift.
                         </li>
@@ -51,7 +51,7 @@ const WorkSection = () => {
                 </li>
                 <li className="m-0 ml-auto mt-8 min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 text-2xl">📑 Remote I-9 Verification for W2 Work Application</h4>
-                    <ul className="pl-8 m-0 text-lg">
+                    <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
                         <li className="mb-4">
                             Created and contributed to a remote I-9 verification React & Python application for workers and employers at the beginning of the pandemic. It enabled a user to fill out the I-9 form without any help similar to a typeform setup, except intelligent pathing based on selection.
                         </li>
@@ -66,7 +66,7 @@ const WorkSection = () => {
                 </li>
                 <li className="m-0 mt-8 min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 text-2xl">🌐 Qlik Sense Web 'Mashups'</h4>
-                    <ul className="pl-8 m-0 text-lg">
+                    <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
                         <li className="mb-4">
                             Worked on cutting edge technology within the Qlik ecosystem, think tableu, and innovated ontop of the existing system. The Qlik default only support an early adoption of angular 1.X except I figured out a react and redux implementation.
                         </li>
@@ -81,7 +81,7 @@ const WorkSection = () => {
                 </li>
                 <li className="m-0 ml-auto mt-8 min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 text-2xl">🚕 A to B Uber/Lyft like Application</h4>
-                    <ul className="pl-8 m-0 text-lg">
+                    <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
                         <li className="mb-4">
                             Contributed to an Uber like application that serviced multitudes of clients, such as Facebook, Apple, Nike, and other major transit micro/macro operators.
                         </li>
