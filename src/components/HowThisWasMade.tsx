@@ -1,3 +1,6 @@
+// @ts-ignore
+import confetti from "canvas-confetti"
+
 const HowThisWasMade = () => {
     return (
         <div>    
@@ -8,18 +11,28 @@ const HowThisWasMade = () => {
                     <p className="text-xl">One of my favorite things about programming is the democratization of knowledge and abilities. I think this website is an example of how one can take advantage of the open source nature of these excellent tools. It also demonstrates that one may not need to focus on the most flashy or latest fad to produce value.</p>
                 </section>
             </div>
-            <h4 className="text-3xl">Demonstrated Goals</h4>
-            <ol className="text-xl text-left min-w-[250px] max-w-[600px] mx-auto">
-                <li>
-                    Thinking creatively about hosting and route management. The about-me app uses react router as well.
+            <h4 className="text-3xl">Site Objectives</h4>
+            <ol className="flex flex-col sm:flex-row gap-20 text-center list-none p-0 m-0 text-xl text-left min-w-[250px] max-w-[720px] mx-auto">
+                <li className="flex items-center justify-center w-1/2 p-4 mx-auto bg-gray-300 shadow rounded-xl sm:w-auto grow basis-0 bg-opacity-60">
+                    Creative hosting and route management.
                 </li>
-                <li>
-                    Clear and well-formatted information.
+                <li className="flex items-center justify-center w-1/2 p-4 mx-auto bg-gray-300 shadow rounded-xl sm:w-auto grow basis-0 bg-opacity-60">
+                    Component-based architecture.
                 </li>
-                <li>
-                    Easy maintainability and expansion opportunity.
+                <li className="flex items-center justify-center w-1/2 p-4 mx-auto bg-gray-300 shadow rounded-xl sm:w-auto grow basis-0 bg-opacity-60">
+                    Consumption of libraries and tools.
                 </li>
             </ol>
+            <hr className="w-1/2 my-10 invertAndOverlay" />
+            <a
+                onClick={() => confetti()}
+                href='https://github.com/y04nqt/y04nqt.github.io/raw/main/public/aaron_krueger_resume.pdf'
+                className="inline-block px-4 py-6 font-bold text-white no-underline transition duration-300 bg-black bg-opacity-50 border-2 border-solid shadow-xl hover:shadow-2xl hover:italic rounded-2xl "
+                target="_blank"
+                rel="noreferrer"
+            >
+                Download My Resume
+            </a>
         </div>
     )
 }

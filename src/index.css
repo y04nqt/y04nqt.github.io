@@ -74,8 +74,22 @@ code {
   animation: appearin 1300ms ease-in-out forwards;
 }
 
+.appear-in-delayed {
+  opacity: 0;
+  animation: appearin-delayed 1300ms ease-in-out forwards;
+  animation-delay: 1300ms;
+}
+
+.appear-in-delayed-extended {
+  opacity: 0;
+  animation: appearin-delayed 1300ms ease-in-out forwards;
+  animation-delay: 2000ms;
+}
+
 .come-up {
-  animation: getoverhere 1700ms ease-in-out forwards;
+  bottom: -2500px;
+  animation: getoverhere 1300ms ease-in-out forwards;
+  animation-delay: 2000ms;
 }
 
 @keyframes appearin {
@@ -87,12 +101,21 @@ code {
   }
 }
 
+@keyframes appearin-delayed {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes getoverhere {
   0% {
     bottom: -2500px;
   }
   100% {
-    
+    bottom: 24px;
   }
 }
 

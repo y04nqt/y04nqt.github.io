@@ -6,7 +6,7 @@ const WorkSection = () => {
             <ul className="p-10 m-0 mt-10 text-left list-none bg-white rounded-lg shadow-xl bg-opacity-70">
                 <li className="m-0 min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 mb-0 mb-2 text-2xl">📈 Growth SEO</h4>
-                    <small className="block mb-6 font-bold">Typescript, NextJS, Firebase, NX, React, Redux, Material UI, Tailwind, Styled Components, Ruby On Rails, Webpack, Netlify, and Javascript</small>
+                    <small className="block mb-6 font-bold">Typescript, NextJS, Firebase, GraphQL, NX, React, Redux, Material UI, Tailwind, Styled Components, Ruby On Rails, Webpack, Netlify, and Javascript</small>
                     <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
                         <li className="mb-4">
                             Fully customizable rehydrated deployed bundles of minified and compiled Typescript to Javascript web components. Think of a search input to direct a user to another application or phone input to collect user's mobile numbers for starting account creation. To see the sample set up, checkout the <a href="https://github.com/y04nqt/deployable-web-components" target="_blank" rel="noreferrer">repository on github</a>.
