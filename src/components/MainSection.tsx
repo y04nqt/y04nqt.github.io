@@ -7,7 +7,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 import { Typography } from "@mui/material";
 import { openLink, redirect } from "../helpers";
-import { Image } from "@mui/icons-material";
 
 const MainSection = () => {
   const [isHidden, setIsHidden] = useState("");
@@ -29,13 +28,12 @@ const MainSection = () => {
 
   return (
     <div
-      className="
-        absolute top-[5%] left-[5%] right-[5%] bottom-[5%]
-        flex flex-col justify-center items-center
-      "
+      className="absolute top-[5%] left-[5%] right-[5%] bottom-[5%] flex flex-col justify-center items-center"
     >
-      <Image
-        src={'https://github.com/y04nqt/y04nqt.github.io/raw/main/public/dragonjaye.png'}
+      <img
+        src={"https://github.com/y04nqt/y04nqt.github.io/raw/main/public/dragonjaye.png"}
+        className="w-[175px] h-[175px] appear-in-delayed-extended"
+        alt="DragonJaye Logo"
        />
       <Typography variant="h1" className="appear-in">Aaron Krueger</Typography>
       <Typography variant="h2" className="invertAndOverlay !text-4xl appear-in-delayed">

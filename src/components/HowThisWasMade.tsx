@@ -12,7 +12,7 @@ const HowThisWasMade = () => {
                 </section>
             </div>
             <h4 className="text-3xl">Site Objectives</h4>
-            <ol className="flex flex-col sm:flex-row gap-20 text-center list-none p-0 m-0 text-xl text-left min-w-[250px] max-w-[720px] mx-auto">
+            <ol className="flex flex-col sm:flex-row gap-20 text-center list-none px-5 m-0 text-xl text-left min-w-[250px] max-w-[720px] mx-auto">
                 <li className="flex items-center justify-center w-1/2 p-4 mx-auto bg-gray-300 shadow rounded-xl sm:w-auto grow basis-0 bg-opacity-60">
                     Creative hosting and route management.
                 </li>
