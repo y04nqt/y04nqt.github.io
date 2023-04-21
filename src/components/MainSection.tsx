@@ -3,6 +3,7 @@ import Button from "../components/Button";
 import ButtonHolder from "../components/ButtonHolder";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InfoIcon from "@mui/icons-material/Info";
+import SentimentVerySatisfiedIcon from '@mui/icons-material/SentimentVerySatisfied';
 import GitHubIcon from "@mui/icons-material/GitHub";
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 import { Popover, Typography } from "@mui/material";
@@ -62,7 +63,7 @@ const MainSection = () => {
       <ButtonHolder className="flex flex-wrap justify-center mx-auto mt-8 space-between">
         <Button
           text="About Me"
-          startIcon={<InfoIcon />}
+          startIcon={<SentimentVerySatisfiedIcon />}
           onClick={() => redirect("/about-me")}
           variant="text"
           color="inherit"
