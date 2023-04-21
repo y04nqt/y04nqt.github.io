@@ -26,10 +26,8 @@ const HowThisWasMade = () => {
             <hr className="w-1/2 my-10 invertAndOverlay" />
             <a
                 onClick={() => confetti()}
-                href='https://github.com/y04nqt/y04nqt.github.io/raw/main/public/aaron_krueger_resume.pdf'
-                className="inline-block px-4 py-6 font-bold text-white no-underline transition duration-300 bg-black bg-opacity-50 border-2 border-solid shadow-xl hover:shadow-2xl hover:italic rounded-2xl "
-                target="_blank"
-                rel="noreferrer"
+                href="https://github.com/y04nqt/y04nqt.github.io/raw/main/public/aaron_krueger_resume.pdf"
+                className="inline-block px-4 py-6 font-bold text-white no-underline transition duration-300 bg-black bg-opacity-50 border-2 border-solid shadow-xl hover:shadow-2xl hover:italic rounded-2xl"
             >
                 Download My Resume
             </a>
