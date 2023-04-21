@@ -30,20 +30,20 @@ const SlideShow = ({ data }: IProps) => {
 
   return (
     <>
-      <ul className="hidden sm:block relative list-none min-h-[720px] p-0 my-10">
+      <ul className="hidden sm:block relative list-none min-h-[720px] p-0 mt-0 mb-10">
         {data.map((item: TData, idx) => (
           <li
             key={item.author}
-            className={`absolute w-full h-full top-[72px] transition duration-300 ${
+            className={`absolute w-full h-full top-[24px] transition duration-300 ${
               idx === currentSlide ? "" : "right-[1000%]"
             }`}
           >
-            <div className="flex justify-center gap-20 my-10">
+            <div className="flex justify-center gap-20 mb-10">
               <button
                 className="p-2 bg-transparent border-none rounded-xl"
                 onClick={decrementSlide}
               >
-                <ChevronLeftIcon className="hover:transition-shadow hover:duration-300 transition-shadow duration-300 !text-6xl shadow hover:shadow-xl rounded-full" />
+                <ChevronLeftIcon className="transition-shadow duration-300 hover:transition-shadow hover:duration-300 shadow hover:shadow-xl !text-6xl rounded-full" />
               </button>
               <ol className="flex items-center gap-2 p-0 list-none">
                 {data.map((item, idx) => (
@@ -61,7 +61,7 @@ const SlideShow = ({ data }: IProps) => {
                 className="p-2 bg-transparent border-none rounded-xl"
                 onClick={incrementSlide}
               >
-                <ChevronRightIcon className="hover:transition-shadow hover:duration-300 transition-shadow duration-300 !text-6xl shadow hover:shadow-xl rounded-full" />
+                <ChevronRightIcon className="transition-shadow duration-300 hover:transition-shadow hover:duration-300 shadow hover:shadow-xl !text-6xl rounded-full" />
               </button>
             </div>
             <div
