@@ -31,24 +31,27 @@ const SlideShow = ({ data }: IProps) => {
   return (
     <>
       <ul className="hidden sm:block relative list-none min-h-[720px] p-0 mt-0 mb-10">
-        {data.map((item: TData, idx) => (
+        {data.map((item: TData, idx1) => (
           <li
             key={item.author}
             className={`absolute w-full h-full top-[24px] transition duration-300 ${
-              idx === currentSlide ? "" : "right-[1000%]"
+              idx1 === currentSlide ? "" : "right-[1000%]"
             }`}
           >
             <div className="flex justify-center gap-20 mb-10">
               <button
                 className="p-2 bg-transparent border-none rounded-xl"
                 onClick={decrementSlide}
+                tabIndex={idx1 !== currentSlide ? -1 : 0}
               >
                 <ChevronLeftIcon className="transition-shadow duration-300 hover:transition-shadow hover:duration-300 shadow hover:shadow-xl !text-6xl rounded-full" />
               </button>
               <ol className="flex items-center gap-2 p-0 list-none">
                 {data.map((item, idx) => (
                   <li
+                    key={idx}
                     onClick={() => setCurrentSlide(idx)}
+                    tabIndex={idx1 !== currentSlide ? -1 : 0}
                     className={`w-[10px] h-[10px] transition duration-300 rounded-full opacity-50 shadow-lg hover:bg-gray-800 ${
                       idx === currentSlide
                         ? "bg-white !opacity-100"
@@ -60,6 +63,7 @@ const SlideShow = ({ data }: IProps) => {
               <button
                 className="p-2 bg-transparent border-none rounded-xl"
                 onClick={incrementSlide}
+                tabIndex={idx1 !== currentSlide ? -1 : 0}
               >
                 <ChevronRightIcon className="transition-shadow duration-300 hover:transition-shadow hover:duration-300 shadow hover:shadow-xl !text-6xl rounded-full" />
               </button>
@@ -69,14 +73,14 @@ const SlideShow = ({ data }: IProps) => {
             >
               <p
                 className={`transition duration-300 ${
-                  idx === currentSlide ? "opacity-100" : "opacity-0"
+                  idx1 === currentSlide ? "opacity-100" : "opacity-0"
                 } px-10 mx-auto text-xl md:w-3/4 italic`}
               >
                 "{item.quote}"
               </p>
               <p
                 className={`transition duration-300 ${
-                  idx === currentSlide ? "opacity-100" : "opacity-0"
+                  idx1 === currentSlide ? "opacity-100" : "opacity-0"
                 } text-lg font-bold`}
               >
                 - {item.author}

@@ -31,8 +31,8 @@ const MainSection = () => {
       className="absolute top-[5%] left-[5%] right-[5%] bottom-[5%] flex flex-col justify-center items-center"
     >
       <img
-        src={"https://github.com/y04nqt/y04nqt.github.io/raw/main/public/dragonjaye.png"}
-        className="w-[175px] h-[175px] appear-in-delayed-extended"
+        src={"https://github.com/y04nqt/y04nqt.github.io/raw/main/public/dragonjaye.webp"}
+        className="w-[209px] h-[192.25px] appear-in-delayed-extended"
         alt="DragonJaye Logo"
        />
       <Typography variant="h1" className="appear-in">Aaron Krueger</Typography>
