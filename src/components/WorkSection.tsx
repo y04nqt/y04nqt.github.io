@@ -1,6 +1,6 @@
 const WorkSection = () => {
     return (
-        <div className="p-10">
+        <div className="p-10" id="project-section">
             <h3 className="mb-1 text-4xl">Projects & Career Highlights</h3>
             <small className="text-lg">Some of the main highlights I'd like to share.</small>
             <ul className="p-10 m-0 mt-10 text-left list-none bg-white rounded-lg shadow-xl bg-opacity-70">
