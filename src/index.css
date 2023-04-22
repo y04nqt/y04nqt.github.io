@@ -56,7 +56,7 @@ code {
     monospace;
 }
 
-.invertAndOverlay {
+.invertAndOverlay, .invertAndOverlayHoverOnly:hover {
   filter: invert(1);
   mix-blend-mode: overlay;
 }
