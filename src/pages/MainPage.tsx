@@ -12,7 +12,7 @@ export default function MainPage() {
       <QuotesSection />
       <WorkSection />
       <HowThisWasMade />
-      <div className="h-[25%]" />
+      <div className="h-[64px]" />
       <LilFooter />
     </>
   );
