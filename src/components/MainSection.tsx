@@ -32,7 +32,7 @@ const MainSection = () => {
         src={
           "https://github.com/y04nqt/y04nqt.github.io/raw/main/public/dragonjaye.webp"
         }
-        className="w-[209px] h-[192.25px] appear-in-delayed-extended"
+        className="w-[209px] h-[192.25px] appear-in-delayed-extended invertAndOverlay"
         alt="DragonJaye Logo"
       />
       <Typography variant="h1" className="appear-in">
