@@ -73,7 +73,7 @@ const MainSection = () => {
         />
       </ButtonHolder>
       <div
-        className={`${isHidden} tranisition-opacity duration-300 absolute come-up`}
+        className={`${isHidden} tranisition-opacity duration-300 relative min-h-[50px] w-full block`}
       >
         <Typography
           role="button"
@@ -84,11 +84,11 @@ const MainSection = () => {
               .getElementById("project-section")
               ?.scrollIntoView({ behavior: "smooth" })
           }
-          className={`abe-blinkin hover:cursor-pointer`}
+          className={`hover:cursor-pointer absolute come-up left-1/4 right-1/4`}
         >
           <DoubleArrowIcon
             style={{ transform: "rotate(90deg)" }}
-            className="align-sub"
+            className="align-sub abe-blinkin"
           />
         </Typography>
       </div>
