@@ -20,7 +20,7 @@ const WorkSection = () => {
                     </ul>
                     <p className="italic">Examples: <a href="https://www.wonolo.com" target="_blank" rel="noreferrer">www.wonolo.com</a> & <a href="https://jobs.wonolo.com" target="_blank" rel="noreferrer">jobs.wonolo.com</a></p> 
                 </li>
-                <li className="m-0 mt-8 ml-auto min-w-[250px] max-w-[600px]">
+                <li className="m-0 mt-20 ml-auto min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 mb-0 mb-2 text-2xl">👩‍🏭 Gig Economy Job Requesting and Worker Tracking</h4>
                     <small className="block mb-6 font-bold">PHP, AWS, PSQL, Lambda, SNS & SQS, EC2, S3, React, React Native, Vue, Typescript, Javascript, CSS/SCSS, Tailwind, Material UI, Python, and JQuery</small>
                     <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
@@ -36,7 +36,7 @@ const WorkSection = () => {
                     </ul>
                     <p className="italic">You can find what remains of the company at <a href="https://moonrise.works" target="_blank" rel="noreferrer">moonrise.works</a>.</p>
                 </li>
-                <li className="m-0 mt-8 min-w-[250px] max-w-[600px]">
+                <li className="m-0 mt-20 min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 mb-0 mb-2 text-2xl">☎️ Online Call Center Application</h4>
                     <small className="block mb-6 font-bold">React, PHP, PSQL, Twilio, Tailwind, Styled Components, and AWS</small>
                     <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
@@ -52,7 +52,7 @@ const WorkSection = () => {
                     </ul>
                     <p className="italic">This technology was built for <a href="https://moonrise.works" target="_blank" rel="noreferrer">moonrise.works</a> as another business vertical to create jobs for people who needed flexible work.</p>
                 </li>
-                <li className="m-0 ml-auto mt-8 min-w-[250px] max-w-[600px]">
+                <li className="m-0 mt-20 ml-auto min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 mb-0 mb-2 text-2xl">📑 Remote I-9 Verification for W2 Work Application</h4>
                     <small className="block mb-6 font-bold">Python, Flask, PSQL, React, Material UI, Javascript, and WebRTC</small>
                     <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
@@ -68,7 +68,7 @@ const WorkSection = () => {
                     </ul>
                     <p className="italic">This technology was built for <a href="https://moonrise.works" target="_blank" rel="noreferrer">moonrise.works</a> as another business vertical to create more tools within the business's ecosystem.</p>
                 </li>
-                <li className="m-0 mt-8 min-w-[250px] max-w-[600px]">
+                <li className="m-0 mt-20 min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 mb-0 mb-2 text-2xl">🌐 Qlik Sense Web 'Mashups'</h4>
                     <small className="block mb-6 font-bold">React, Javascript, JQuery, Redux, Qlik, and CSS</small>
                     <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
@@ -84,7 +84,7 @@ const WorkSection = () => {
                     </ul>
                     <p className="italic">This technology was very new at the time of implementation. It had a big impact on making data more accessible on the web.</p>
                 </li>
-                <li className="m-0 ml-auto mt-8 min-w-[250px] max-w-[600px]">
+                <li className="m-0 mt-20 ml-auto min-w-[250px] max-w-[600px]">
                     <h4 className="mt-0 mb-0 mb-2 text-2xl">🚕 A to B Uber/Lyft like Application</h4>
                     <small className="block mb-6 font-bold">Angular 1.X, Javascript, PSQL, CSS/SCSS, Python, Flask, CakePHP, PHP, PhoneGap, Cordova, JQuery, and Heroku</small>
                     <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
