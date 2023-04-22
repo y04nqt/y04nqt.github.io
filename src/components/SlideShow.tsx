@@ -43,6 +43,7 @@ const SlideShow = ({ data }: IProps) => {
                 className="p-2 bg-transparent border-none rounded-xl"
                 onClick={decrementSlide}
                 tabIndex={idx1 !== currentSlide ? -1 : 0}
+                aria-label="slide left"
               >
                 <ChevronLeftIcon className="transition-shadow duration-300 hover:transition-shadow hover:duration-300 shadow hover:shadow-xl !text-6xl rounded-full" />
               </button>
@@ -64,6 +65,7 @@ const SlideShow = ({ data }: IProps) => {
                 className="p-2 bg-transparent border-none rounded-xl"
                 onClick={incrementSlide}
                 tabIndex={idx1 !== currentSlide ? -1 : 0}
+                aria-label="slide right"
               >
                 <ChevronRightIcon className="transition-shadow duration-300 hover:transition-shadow hover:duration-300 shadow hover:shadow-xl !text-6xl rounded-full" />
               </button>
