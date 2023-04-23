@@ -38,14 +38,14 @@ const SlideShow = ({ data }: IProps) => {
               idx1 === currentSlide ? "" : "right-[1000%]"
             }`}
           >
-            <div className="flex justify-center gap-20 mb-10">
+            <div className="flex justify-center gap-20 mb-5">
               <button
                 className="p-2 bg-transparent border-none rounded-xl"
                 onClick={decrementSlide}
                 tabIndex={idx1 !== currentSlide ? -1 : 0}
                 aria-label="slide left"
               >
-                <ChevronLeftIcon className="transition-shadow duration-300 hover:transition-shadow hover:duration-300 shadow hover:shadow-xl !text-6xl rounded-full" />
+                <ChevronLeftIcon className="transition-shadow duration-300 hover:transition-shadow hover:duration-300 shadow hover:shadow-xl !text-6xl rounded-full border-solid border-1 border-[#00000055]" />
               </button>
               <ol className="flex items-center gap-2 p-0 list-none">
                 {data.map((item, idx) => (
@@ -67,7 +67,7 @@ const SlideShow = ({ data }: IProps) => {
                 tabIndex={idx1 !== currentSlide ? -1 : 0}
                 aria-label="slide right"
               >
-                <ChevronRightIcon className="transition-shadow duration-300 hover:transition-shadow hover:duration-300 shadow hover:shadow-xl !text-6xl rounded-full" />
+                <ChevronRightIcon className="transition-shadow duration-300 hover:transition-shadow hover:duration-300 shadow hover:shadow-xl !text-6xl rounded-full border-solid border-1 border-[#00000055]" />
               </button>
             </div>
             <div

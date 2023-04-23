@@ -7,6 +7,7 @@ interface IButtonProps {
   className?: string;
   startIcon?: React.ReactNode;
   endIcon?: React.ReactNode;
+  disabled?: boolean;
   onClick?: () => any;
   variant?: "text" | "outlined" | "contained";
   color?: "inherit" | "primary" | "secondary" | "success" | "error" | "info" | "warning" | undefined;
