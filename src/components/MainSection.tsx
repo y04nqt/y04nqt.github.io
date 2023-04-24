@@ -77,7 +77,7 @@ const MainSection = () => {
       </ButtonHolder>
       <div className="appear-in-delayed-extended">
         <DownloadResumeAnchor
-          className="px-4 py-2 text-xs font-bold text-white no-underline transition duration-300 bg-black border-2 border-solid shadow-xl bg-opacity-70 hover:shadow-2xl hover:italic rounded-xl"
+          className="px-4 py-2 text-xs font-bold text-white no-underline transition duration-300 bg-black border-2 border-solid shadow-xl bg-opacity-70 hover:bg-gray-700 hover:shadow-2xl hover:italic rounded-xl"
           text="Download Resume"
         />
       </div>
