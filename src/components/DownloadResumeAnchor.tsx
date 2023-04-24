@@ -7,7 +7,7 @@ const DownloadResumeAnchor = ({
     return (
         <a
         onClick={() => confetti()}
-        href="https://github.com/y04nqt/y04nqt.github.io/raw/main/public/aaron_krueger_resume.pdf"
+        href="https://github.com/y04nqt/portfolio-data/raw/main/aaron-krueger-resume.pdf"
         className={className}
       >
         {text}
