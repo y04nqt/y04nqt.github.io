@@ -2,28 +2,25 @@ import { useState } from "react";
 import Button from "./Button";
 import { TextField } from "@mui/material";
 
-const { Configuration, OpenAIApi } = require("openai");
-
 const OpenAI = () => {
-  const configuration = new Configuration({
-    apiKey: process.env.REACT_APP_OPEN_AI_KEY,
-  });
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
-  const openai = new OpenAIApi(configuration);
 
   const getResponse = async () => {
-    const response = await openai.createCompletion({
-      model: "text-davinci-003",
-      prompt: input,
-      temperature: 0,
-      max_tokens: 42,
-    });
-    let res = response.data.choices[0].text as string;
-    if (!res.slice(-1).match(/[.?!]/)) {
-      res = `${res}... Sorry token limit reached. This isn't free, so please have mercy. 🙏`;
-    }
-    setOutput(res);
+    console.log("hello");
+    const url = process.env.REACT_APP_AI_URL || '';
+    const resp = await fetch(
+      url,
+      { method: "POST", headers: {
+        "Content-Type": "application/json",
+      }, body: JSON.stringify({ text: input }) }
+    );
+    const data = await resp.json();
+    console.log(data);
+    // if (!res.slice(-1).match(/[.?!]/)) {
+    //   res = `${res}... Sorry token limit reached. This isn't free, so please have mercy. 🙏`;
+    // }
+    // setOutput(JSON.stringify(data));
   };
 
   return (
