@@ -1,52 +1,58 @@
 import { useState } from "react";
 import Button from "./Button";
 import { TextField } from "@mui/material";
+import IconButton from '@mui/material/IconButton';
+import SendIcon from "@mui/icons-material/Send";
 
 const OpenAI = () => {
   const [input, setInput] = useState("");
-  const [output, setOutput] = useState("");
+  const [output, setOutput] = useState(
+    "Ask a question above, and GPT-3 will respond here! 🤖"
+  );
+  const [loading, setLoading] = useState(false);
 
   const getResponse = async () => {
-    console.log("hello");
-    const url = process.env.REACT_APP_AI_URL || '';
-    const resp = await fetch(
-      url,
-      { method: "POST", headers: {
+    setLoading(true);
+    const url = process.env.REACT_APP_AI_URL || "";
+    const resp = await fetch(url, {
+      method: "POST",
+      headers: {
         "Content-Type": "application/json",
-      }, body: JSON.stringify({ text: input }) }
-    );
+      },
+      body: JSON.stringify({ text: input }),
+    });
     const data = await resp.json();
     let res = data?.response;
     if (res.length > 42 && !res.slice(-1).match(/[.?!]/)) {
       res = `${res}... Sorry token limit reached. This isn't free, so please have mercy. 🙏`;
     }
     setOutput(res);
+    setLoading(false);
   };
 
   return (
     <section className="p-10">
       <h2 className="mt-0 text-4xl">Limited Chat Gippity</h2>
-      <div className="flex flex-col">
+      <div className="flex items-center justify-center gap-5 my-5">
         <TextField
           variant="outlined"
-          className="mb-4 bg-white rounded"
+          className="w-2/3 h-full mb-4 bg-white rounded"
           onChange={(e) => setInput(e.target.value)}
           placeholder="Ask the gippity a question"
         />
-        <Button
-          className="self-center !my-5"
-          variant="contained"
-          color="primary"
+        <IconButton
+          className="self-center"
           disabled={input.length < 1}
           onClick={() => getResponse()}
-          text="CHAT"
-        />
-        {output.length !== 0 && (
-          <p className="p-5 mt-0 mb-0 text-white bg-gray-800 border-solid shadow-xl border-1 rounded-xl">
-            {output}
-          </p>
-        )}
+        ><SendIcon /></IconButton>
       </div>
+      <p
+        className={`p-5 mt-0 mb-0 text-white bg-gray-800 border-solid shadow-xl border-1 rounded-xl ${
+          loading ? "animate-pulse" : ""
+        }`}
+      >
+        <strong>🤖:</strong> {output}
+      </p>
     </section>
   );
 };
