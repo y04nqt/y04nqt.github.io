@@ -6,7 +6,7 @@ const HowThisWasMade = () => {
   return (
     <div>
       <div className="my-20 max-w-[100%] w-auto bg-white bg-opacity-80 shadow-lg mx-auto p-10">
-        <section className="min-w-[250px] max-w-[600px] mx-auto">
+        <section className="min-w-[225px] max-w-[600px] mx-auto">
           <h3 className="mb-1 text-4xl">How This Site Was Made</h3>
           <p className="text-xl">
             This site leverages a few cool techniques to appear as one, cohesive
@@ -31,7 +31,7 @@ const HowThisWasMade = () => {
         </section>
       </div>
       <h4 className="text-3xl">Site Objectives</h4>
-      <ol className="flex flex-col sm:flex-row gap-20 text-center list-none px-5 m-0 text-xl text-left min-w-[250px] max-w-[720px] mx-auto">
+      <ol className="flex flex-col sm:flex-row gap-5 sm:gap-10 text-center list-none px-5 m-0 text-xl text-left min-w-[225px] max-w-[720px] mx-auto">
         <li className="flex flex-col items-center justify-center w-1/2 p-4 mx-auto transition duration-300 bg-gray-300 border-gray-300 border-solid shadow-lg hover:shadow-xl border-1 rounded-xl sm:w-auto grow basis-0 bg-opacity-60">
           <p className="my-4 mb-0 text-4xl">🏘️</p>
           <p>Creative hosting and route management.</p>
