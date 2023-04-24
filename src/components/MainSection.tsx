@@ -31,7 +31,7 @@ const MainSection = () => {
     <div className="absolute top-[5%] left-[5%] right-[5%] bottom-[5%] flex flex-col justify-center items-center">
       <img
         src={
-          "https://github.com/y04nqt/y04nqt.github.io/raw/main/public/dragonjaye.webp"
+          "https://raw.githubusercontent.com/y04nqt/portfolio-data/main/dragonjaye.webp"
         }
         className="w-[209px] h-[192.25px] appear-in-delayed-extended invertAndOverlayHoverOnly transition duration-300"
         alt="DragonJaye Logo"
