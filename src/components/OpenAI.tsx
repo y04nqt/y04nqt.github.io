@@ -42,6 +42,8 @@ const OpenAI = () => {
         />
         <IconButton
           className="self-center"
+          role="button"
+          aria-label="Send button"
           disabled={input.length < 1}
           onClick={() => getResponse()}
         ><SendIcon /></IconButton>
