@@ -3,7 +3,7 @@ import { useState } from "react";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 
-type TData = { author: string; quote: string };
+type TData = { author: string; quote: string, link: string };
 interface IProps {
   data: TData[];
 }
@@ -85,7 +85,7 @@ const SlideShow = ({ data }: IProps) => {
                   idx1 === currentSlide ? "opacity-100" : "opacity-0"
                 } text-lg font-bold`}
               >
-                - {item.author}
+                - <a className="text-black no-underline" href={item.link}>{item.author}</a>
               </p>
             </div>
           </li>

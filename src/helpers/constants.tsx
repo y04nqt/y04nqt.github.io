@@ -1,5 +1,10 @@
 export const QUOTE_DATA = [
     {
+        quote: `Aaron is the engineer you want on your team when the problem is sparsely defined, the requirements are fluid and the solution should have been launched yesterday. He is unfazed by the challenges of a constantly changing business environment. He calmly and methodically works towards his deliverables and is able to quickly iterate on his solution as the problem space becomes clear with user data. He is able to interface easily with non-technical business units to gather requirements and solve their problems. He custom built many solutions when pre existing libraries were just not cutting it. He pushed the team to consider tools and methodologies that improved developer joy of working in our codebase. He kept a close eye on the performance metrics of all our products in the Growth team and took it upon himself to try various approaches to continually improve the baseline performance of our product. I look forward to working with him in the future.`,
+        author: "Pranab Shenoy",
+        link: "https://www.linkedin.com/in/pranabshenoy/"
+    },
+    {
       quote: `Aaron and I worked together on the Growth team at Wonolo from 2022-2023. His hallmark work included spearheading the development of a Netlify-deployed, CDN-hosted widget to help increase user sign-ups to the Wonolo mobile app across multiple user-facing sites, and standing up a newly branded company website using Next.js to replace Wonolo's WordPress site. From day one, he brought his solid experience, drive, and collaboration to the table, and helped our team become the engineering team to beat in terms of high-quality and speedy, tested output. Whether among the Growth team or with marketing, sales, and other engineering teams, Aaron was a tremendous team player. He's a personable, professional developer, and I'd be happy to work with him on future projects. Any engineering team would be fortunate to have him aboard!`,
       author: "Jason White",
       link: "https://www.linkedin.com/in/jasonmichaelwhite/",
