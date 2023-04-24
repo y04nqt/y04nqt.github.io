@@ -7,6 +7,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 import { Typography } from "@mui/material";
 import { openLink, redirect } from "../helpers";
+import DownloadResumeAnchor from "./DownloadResumeAnchor";
+import { Download } from "@mui/icons-material";
 
 const MainSection = () => {
   const [isHidden, setIsHidden] = useState("");
@@ -44,14 +46,14 @@ const MainSection = () => {
       >
         Senior Software Engineer
       </Typography>
-      <ButtonHolder className="flex flex-wrap justify-center mx-auto mt-8 space-between appear-in-delayed-extended">
+      <ButtonHolder className="flex flex-wrap justify-center mx-auto my-4 space-between appear-in-delayed-extended">
         <Button
           text="About Me"
           startIcon={<SentimentVerySatisfiedIcon />}
           onClick={() => redirect("/about-me")}
           variant="text"
           color="inherit"
-          className="invertAndDifference"
+          className="rounded-xl invertAndDifference"
         />
         <span className="mx-2"></span>
         <Button
@@ -62,6 +64,7 @@ const MainSection = () => {
           }
           variant="text"
           color="inherit"
+          className="rounded-xl"
         />
         <span className="mx-2"></span>
         <Button
@@ -70,8 +73,15 @@ const MainSection = () => {
           onClick={() => openLink("https://github.com/y04nqt")}
           variant="text"
           color="inherit"
+          className="rounded-xl"
         />
       </ButtonHolder>
+      <div className="appear-in-delayed-extended">
+        <DownloadResumeAnchor
+          className="px-4 py-2 text-xs font-bold text-white no-underline transition duration-300 bg-black border-2 border-solid shadow-xl bg-opacity-70 hover:shadow-2xl hover:italic rounded-xl"
+          text="Download Resume"
+        />
+      </div>
       <div
         className={`${isHidden} tranisition-opacity duration-300 relative min-h-[50px] w-full block`}
       >

@@ -1,5 +1,6 @@
 // @ts-ignore
 import confetti from "canvas-confetti";
+import DownloadResumeAnchor from "./DownloadResumeAnchor";
 
 const HowThisWasMade = () => {
   return (
@@ -45,13 +46,7 @@ const HowThisWasMade = () => {
         </li>
       </ol>
       <hr className="w-1/2 my-10 invertAndOverlay" />
-      <a
-        onClick={() => confetti()}
-        href="https://github.com/y04nqt/y04nqt.github.io/raw/main/public/aaron_krueger_resume.pdf"
-        className="inline-block px-4 py-6 font-bold text-white no-underline transition duration-300 bg-black border-2 border-solid shadow-xl bg-opacity-70 hover:shadow-2xl hover:italic rounded-2xl"
-      >
-        Download My Resume
-      </a>
+      <DownloadResumeAnchor />
     </div>
   );
 };
