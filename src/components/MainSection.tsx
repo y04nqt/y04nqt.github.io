@@ -14,7 +14,7 @@ const MainSection = () => {
 
   useEffect(() => {
     const hideScroll = window.addEventListener("scroll", () => {
-      if (window.scrollY > 60) {
+      if (window.scrollY > 180) {
         if (isHidden === "") {
           setIsHidden("opacity-0");
         }
