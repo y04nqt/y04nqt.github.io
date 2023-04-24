@@ -8,7 +8,6 @@ import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 import { Typography } from "@mui/material";
 import { openLink, redirect } from "../helpers";
 import DownloadResumeAnchor from "./DownloadResumeAnchor";
-import { Download } from "@mui/icons-material";
 
 const MainSection = () => {
   const [isHidden, setIsHidden] = useState("");
