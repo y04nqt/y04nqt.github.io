@@ -16,11 +16,11 @@ const OpenAI = () => {
       }, body: JSON.stringify({ text: input }) }
     );
     const data = await resp.json();
-    console.log(data);
-    // if (!res.slice(-1).match(/[.?!]/)) {
-    //   res = `${res}... Sorry token limit reached. This isn't free, so please have mercy. 🙏`;
-    // }
-    // setOutput(JSON.stringify(data));
+    let res = data?.response;
+    if (res.length > 42 && !res.slice(-1).match(/[.?!]/)) {
+      res = `${res}... Sorry token limit reached. This isn't free, so please have mercy. 🙏`;
+    }
+    setOutput(res);
   };
 
   return (
@@ -36,6 +36,7 @@ const OpenAI = () => {
         <Button
           className="self-center !my-5"
           variant="contained"
+          color="primary"
           disabled={input.length < 1}
           onClick={() => getResponse()}
           text="CHAT"
