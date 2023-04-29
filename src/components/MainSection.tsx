@@ -79,7 +79,7 @@ const MainSection = () => {
         <Button
           text="Blog"
           startIcon={<BookIcon />}
-          onClick={() => openLink("https://y04nqt.github.io/blog/")}
+          onClick={() => redirect("https://y04nqt.github.io/blog/")}
           variant="text"
           color="inherit"
           className="rounded-xl"
