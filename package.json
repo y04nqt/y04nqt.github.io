@@ -1,6 +1,6 @@
 {
-  "name": "gh-landing-page",
-  "homepage": "https://y04nqt.github.io",
+  "name": "gh-blog-page",
+  "homepage": "https://y04nqt.github.io/blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,9 +16,9 @@
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
     "canvas-confetti": "^1.6.0",
-    "openai": "^3.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.11.0",
     "react-scripts": "5.0.0",
     "typescript": "^4.5.5",
     "web-vitals": "^2.1.4"
