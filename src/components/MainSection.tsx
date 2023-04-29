@@ -4,6 +4,7 @@ import ButtonHolder from "../components/ButtonHolder";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import SentimentVerySatisfiedIcon from "@mui/icons-material/SentimentVerySatisfied";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import BookIcon from '@mui/icons-material/Book';
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 import { Typography } from "@mui/material";
 import { openLink, redirect } from "../helpers";
@@ -45,7 +46,7 @@ const MainSection = () => {
       >
         Senior Software Engineer
       </Typography>
-      <ButtonHolder className="flex flex-wrap justify-center mx-auto my-4 space-between appear-in-delayed-extended">
+      <ButtonHolder className="flex flex-wrap justify-center mx-auto my-4 mt-2 space-between appear-in-delayed-extended">
         <Button
           text="About Me"
           startIcon={<SentimentVerySatisfiedIcon />}
@@ -70,6 +71,15 @@ const MainSection = () => {
           text="GitHub"
           startIcon={<GitHubIcon />}
           onClick={() => openLink("https://github.com/y04nqt")}
+          variant="text"
+          color="inherit"
+          className="rounded-xl"
+        />
+        <span className="mx-2"></span>
+        <Button
+          text="Blog"
+          startIcon={<BookIcon />}
+          onClick={() => openLink("https://y04nqt.github.io/blog/")}
           variant="text"
           color="inherit"
           className="rounded-xl"
