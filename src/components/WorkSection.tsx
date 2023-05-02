@@ -12,10 +12,10 @@ const WorkSection = () => {
                             Fully customizable rehydrated deployed bundles of minified and compiled Typescript to Javascript web components. Think of a search input to direct a user to another application or phone input to collect user's mobile numbers for starting account creation. To see the sample set up, checkout the <a href="https://github.com/y04nqt/deployable-web-components" target="_blank" rel="noreferrer">repository on github</a>.
                         </li>
                         <li className="mb-4">
-                            A search platform using NextJS to populate SEO-friendly data for users to interact with and automated page population for consistent updating to grow ranking.
+                            Built a job search platform using NextJS to populate SEO-friendly data for users to interact with and automated page population for consistent updating to grow keyword ranking.
                         </li>
                         <li className="mb-4">
-                            NextJS app ported from wordpress to enable faster loading and performance for the end user. The app automatically generated pages based on specific criteria and links for SEO growth.
+                            NextJS app ported from WordPress to enable faster loading and performance for the end user. The app automatically generated pages based on specific criteria and links for SEO growth.
                         </li>
                     </ul>
                     <p className="italic">Examples: <a href="https://www.wonolo.com" target="_blank" rel="noreferrer">www.wonolo.com</a> & <a href="https://jobs.wonolo.com" target="_blank" rel="noreferrer">jobs.wonolo.com</a></p> 
@@ -25,7 +25,7 @@ const WorkSection = () => {
                     <small className="block mb-6 font-bold">PHP, AWS, PSQL, Lambda, SNS & SQS, EC2, S3, React, React Native, Vue, Typescript, Javascript, CSS/SCSS, Tailwind, Material UI, Python, and JQuery</small>
                     <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
                         <li className="mb-4">
-                            Created many features including systems for requesting multi-day shifts with variable settings to determine categorization, micro-service operations + architecture, and UI/UX enhancement for employers and workers.
+                            Created many features, including systems requesting multi-day shifts with variable settings to determine categorization, micro-service operations + architecture, and UI/UX enhancement for employers and workers.
                         </li>
                         <li className="mb-4">
                             The technology used to facilitate the job recruiting platform utilized PHP, AWS (EC2, S3, Aurora, Lambda, SNS + SQS, Athena), React, React Native, Vue, and Python (Data Analytics).
@@ -47,7 +47,7 @@ const WorkSection = () => {
                             The application was built with React, Tailwind, and AWS.
                         </li>
                         <li className="mb-4">
-                            An admin could set up an employer with Scripts for workers to interact with per call basis and other settings. The calling system was powered by Twilio for workers, we utilized twilio's API to identify callable numbers and IVR.
+                            An admin could set up an employer with Scripts for workers to interact with on a per-call basis and other settings. Twilio powered the calling system for workers; we utilized Twilio's API to identify callable numbers and IVR.
                         </li>
                     </ul>
                     <p className="italic">This technology was built for <a href="https://moonrise.works" target="_blank" rel="noreferrer">moonrise.works</a> as another business vertical to create jobs for people who needed flexible work.</p>
@@ -57,13 +57,13 @@ const WorkSection = () => {
                     <small className="block mb-6 font-bold">Python, Flask, PSQL, React, Material UI, Javascript, and WebRTC</small>
                     <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
                         <li className="mb-4">
-                            Created and contributed to a remote I-9 verification React & Python application for workers and employers at the beginning of the pandemic. It enabled a user to fill out the I-9 form without any help similar to a typeform setup, except intelligent pathing based on selection.
+                        Created and contributed to a remote I-9 verification React & Python application for workers and employers at the pandemic's beginning. It enabled a user to fill out the I-9 form without help, similar to a Typeform setup, except intelligent pathing based on selection.
                         </li>
                         <li className="mb-4">
                             The application was built with React, Tailwind, Python/Flask, PSQL, and AWS.
                         </li>
                         <li className="mb-4">
-                            An admin could set up an employer with Scripts for workers to interact with per call basis and other settings. The calling system was powered by Twilio for workers, we utilized twilio's API to identify callable numbers and IVR.
+                            How it worked: An employer would log in and open a menu to create an invite request for the new employee; the employee would receive a link, and a new item would appear in the table of sent I-9 forms on the employer view; the employee would fill out the I-9 form in a guided step by step process, the form would adapt intelligently based on choices made whether new or updated, upon completion the employee could enter a socket-supported page with WebRTC camera feeds of employee and verifier, the verifier would approve or decline through a short menu process, and then the meeting would complete. Lastly, the generated I-9 PDF would be accessible to the employer and emailed to the employee.
                         </li>
                     </ul>
                     <p className="italic">This technology was built for <a href="https://moonrise.works" target="_blank" rel="noreferrer">moonrise.works</a> as another business vertical to create more tools within the business's ecosystem.</p>
@@ -73,29 +73,29 @@ const WorkSection = () => {
                     <small className="block mb-6 font-bold">React, Javascript, JQuery, Redux, Qlik, and CSS</small>
                     <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
                         <li className="mb-4">
-                            Worked on cutting edge technology within the Qlik ecosystem, think tableu, and innovated ontop of the existing system. The Qlik default only support an early adoption of angular 1.X except I figured out a react and redux implementation.
+                            Worked on cutting-edge technology within the Qlik ecosystem, think tableau, and innovated on top of the existing system. The Qlik default only supports an early adoption of angular 1.X by default, except I built out a react and redux implementation.
                         </li>
                         <li className="mb-4">
-                            Created templates of different variations of react/redux application starting points for easier consultancy development.
+                            Created templates of different react/redux application starting point variations for easier consultancy development.
                         </li>
                         <li className="mb-4">
                             The apps support user auth and multiple forms of simple or complex state management depending on needs.
                         </li>
                     </ul>
-                    <p className="italic">This technology was very new at the time of implementation. It had a big impact on making data more accessible on the web.</p>
+                    <p className="italic">This technology was very new at the time of implementation, and it significantly impacted making data more accessible on the web.</p>
                 </li>
                 <li className="bg-white bg-opacity-80 sm:bg-opacity-0 shadow-xl sm:shadow-none rounded-xl p-8 sm:p-0 m-0 mt-20 ml-auto min-w-[225px] max-w-[600px]">
                     <h4 className="mt-0 mb-0 mb-2 text-2xl">🚕 A to B Uber/Lyft like Application</h4>
                     <small className="block mb-6 font-bold">Angular 1.X, Javascript, PSQL, CSS/SCSS, Python, Flask, CakePHP, PHP, PhoneGap, Cordova, JQuery, and Heroku</small>
                     <ul className="p-0 m-0 text-lg list-none sm:list-disc sm:pl-8">
                         <li className="mb-4">
-                            Contributed to an Uber like application that serviced multitudes of clients, such as Facebook, Apple, Nike, and other major transit micro/macro operators.
+                            Contributed to an Uber-like application that serviced multitudes of clients, such as Facebook, Apple, Nike, and other major transit micro/macro operators.
                         </li>
                         <li className="mb-4">
                             The apps were in an ecosystem for drivers, riders, and admins. The technologies used were Angular 1.x, Python/Flask, Cordova/PhoneGap, and Heroku.
                         </li>
                         <li className="mb-4">
-                            I was tasked with building new features, redesigning UI/UX, and maintaining/deploying white-label applications with helping product/ops client relations.
+                        I was tasked with building new features, redesigning UI/UX, security audits, and maintaining/deploying white-label applications with helping product/ops client relations.
                         </li>
                     </ul>
                     <p className="italic">This was my first real foray into a large code base and feature building for web and mobile devices.</p>
