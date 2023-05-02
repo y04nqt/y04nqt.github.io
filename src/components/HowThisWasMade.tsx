@@ -7,24 +7,10 @@ const HowThisWasMade = () => {
         <section className="min-w-[225px] max-w-[600px] mx-auto">
           <h3 className="mb-1 text-4xl">How This Site Was Made</h3>
           <p className="text-xl">
-            This site leverages a few cool techniques to appear as one, cohesive
-            application. However, this landing page at the base route of the
-            domain is one app and the about me route is another app. I'm using
-            two create-react-apps with the GH-pages deploy system and github
-            hosting. The goal of this strategy is to utilize the free nature of
-            Github to host my own portfolio applications. This way, I don't have
-            additional payment overhead unlike if I were to go with another
-            deploy strategy utilizing netlify or vercel. I could expand this
-            further and power a data fetching system. One can store open JSON
-            files on github, and use fetch to get that data then render it on
-            the page.
+            This site leverages a few cool techniques to appear as one cohesive application. However, this landing page at the base route of the domain is one app, the blog route is different, and the about-me route is another app. I'm using three create-react-apps with the GH-pages deploy system and GitHub hosting. This strategy aims to utilize the free nature of GitHub to host my portfolio applications. This way, I don't have additional payment overhead, unlike if I were to go with another deployment strategy utilizing Netlify or Vercel. I could expand this further and power a data-fetching system. One can store open JSON files on GitHub, fetch to get that data, then render it on the page.
           </p>
           <p className="text-xl">
-            One of my favorite things about programming is the democratization
-            of knowledge and abilities. I think this website is an example of
-            how one can take advantage of the open source nature of these
-            excellent tools. It also demonstrates that one may not need to focus
-            on the most flashy or latest fad to produce value.
+            One of my favorite things about programming is democratizing knowledge and abilities. This website is an example of how one can take advantage of the open-source nature of these excellent tools, and it also demonstrates that one may not need to focus on the most flashy or latest fad to produce value.
           </p>
         </section>
       </div>
