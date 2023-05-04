@@ -79,7 +79,7 @@ const MainSection = () => {
         <Button
           text="Blog"
           startIcon={<BookIcon />}
-          onClick={() => redirect("https://y04nqt.github.io/blog/")}
+          onClick={() => redirect("https://dragonjaye.com/blog/")}
           variant="text"
           color="inherit"
           className="rounded-xl"
