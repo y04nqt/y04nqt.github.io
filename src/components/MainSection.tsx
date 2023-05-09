@@ -57,6 +57,15 @@ const MainSection = () => {
         />
         <span className="mx-2"></span>
         <Button
+          text="Blog"
+          startIcon={<BookIcon />}
+          onClick={() => redirect("https://dragonjaye.com/blog/")}
+          variant="text"
+          color="inherit"
+          className="rounded-xl invertAndDifference"
+        />
+        <span className="mx-2"></span>
+        <Button
           text="LinkedIn"
           startIcon={<LinkedInIcon />}
           onClick={() =>
@@ -71,15 +80,6 @@ const MainSection = () => {
           text="GitHub"
           startIcon={<GitHubIcon />}
           onClick={() => openLink("https://github.com/y04nqt")}
-          variant="text"
-          color="inherit"
-          className="rounded-xl"
-        />
-        <span className="mx-2"></span>
-        <Button
-          text="Blog"
-          startIcon={<BookIcon />}
-          onClick={() => redirect("https://dragonjaye.com/blog/")}
           variant="text"
           color="inherit"
           className="rounded-xl"
