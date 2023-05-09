@@ -62,7 +62,7 @@ const MainSection = () => {
           onClick={() => redirect("https://dragonjaye.com/blog/")}
           variant="text"
           color="inherit"
-          className="rounded-xl"
+          className="rounded-xl invertAndDifference"
         />
         <span className="mx-2"></span>
         <Button

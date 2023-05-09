@@ -80,7 +80,7 @@ const SlideShow = ({ data }: IProps) => {
               >
                 "{item.quote}"
               <p
-                className={`transition duration-300 ${
+                className={`transition duration-300 mb-0 ${
                   idx1 === currentSlide ? "opacity-100" : "opacity-0"
                 } text-lg font-bold`}
               >
